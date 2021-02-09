@@ -41,41 +41,112 @@ header {
     text-align: center;
     color: black;
 }
-@media (min-width: 576px) {
+.panel-body {
+    display: flex;
+    justify-content: center; /* Horizontally centers the content */
+    align-items: center; /* Vertically centers the content */
+  }
+.counter
+{
+    text-align: center;
+}
+.employees,.client,.users
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.counter-count
+{
+    font-size: 32px;
+    position: relative;
+    color: #179013;
+    text-align: center;
+    display: inline-block;
+}
+
+.client-p,.employee-p,.user-p
+{
+    font-size: 16px;
+    color: #000000;
+    
+}
+.latestnews{
+        background-color: #eff3f8;
+        text-align: center;
+}
+.news1,.news2,.news3
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color:white;
+    padding:50px;
+    text-align: justify;
+}
+.refrence,.newsletter{
+    text-align: center;
+}
+footer {
+    background-color: black;
+    padding-top: 10px;
+    color: white; 
+}
+.footerleft{
+    text-align: justify;
+    margin-left: 10%;
+}
+#thankyou{
+    font-size:18px;
+    color: green;
+}
+/*@media (min-width: 576px) {
     #imagebox{
-        margin-top:20px;
-        padding:10px;
+        margin-top:1%;
+         margin-left: 10%;
     }
     .linkimg{
-        margin:10%;
+        padding:1%;
     }
 }
 @media (max-width: 767px) {
     #imagebox{
-        margin-top:20px;
-        padding:10px;
+        margin-top:1%;
+         margin-left: 10%;
+         margin-right: 10%;
+        
     }
     .linkimg{
-        padding:10px;
-        margin:10%;
+        padding:1%;
     }
 }
 @media (min-width: 992px) {
     #imagebox{
-        margin-top:20px;
-        padding:10px;
+        margin-top:1%;
+        margin-left: 10%;
+        margin-right: 10%;
+        width:auto;
     }
     .linkimg{
-        padding:10px;
+        padding:1%;
     }
 }
 @media (min-width: 1200px) {
     #imagebox{
-        margin-top:20px;
-        padding:10px;
-        padding-left: 10%;
+        margin-top:1%;
+        margin-left: 10%;
+        margin-right: 10%;
+        width:50%;
     }
     .linkimg{
-        padding:5%;
+        padding:0.5%;
     }
 }
+@media (min-width: 992px) {
+    #imagebox{
+        margin-top:1%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .linkimg{
+        padding:1%;
+    }
+}*/
