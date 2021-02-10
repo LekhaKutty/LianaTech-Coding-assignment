@@ -17,7 +17,7 @@ and open the template in the editor.
   
   .bgimg-1, .bgimg-2, .bgimg-3 {
     position: relative;
-    opacity: 0.65;
+    
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -26,17 +26,17 @@ and open the template in the editor.
   }
   .bgimg-1 {
     background-image: url("../img/marketing-automation.png");
-    min-height: 400px;
+    min-height: 500px;
   }
   
   .bgimg-2 {
     background-image: url("../img/10_tips_for_creating_content_calendar.jpg");
-    min-height: 400px;
+    min-height: 500px;
   }
   
   .bgimg-3 {
     background-image: url("../img/pressrelease.png");
-    min-height: 400px;
+    min-height: 500px;
   }
   
   .caption {
@@ -48,12 +48,20 @@ and open the template in the editor.
     color: #000;
   }
   
-  .caption span.border {
+  .caption p.border {
     background-color: #111;
     opacity: 0.65;
     color: #fff;
     padding: 18px;
     font-size: 25px;
+    letter-spacing: 10px;
+  }
+  .caption p.border1 {
+    background-color: #111;
+    opacity: 0.65;
+    color: #fff;
+    padding: 18px;
+    font-size: 18px;
     letter-spacing: 10px;
   }
   
