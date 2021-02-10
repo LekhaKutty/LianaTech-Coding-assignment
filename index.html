@@ -81,9 +81,9 @@
                 </div>
             </div>
         </section>
-<!--section for main image and heading-->
+<!--section for main image and heading -->
         <section class="row" id="sectionwideimage">
-            <div class="row container-fluid centered homeimage mt-5">
+            <div class="row container-fluid  homeimage">
                 <div class="text-center imagetextdiv">
                     <h1 class="imagetext mx-auto font-size-8 font-size-md-10 text-md-white">Software fueling digital marketing</h1>
                     <button class="btn btn-outline-success my-2 my-sm-0 btngreen" type="submit">Learn More</button>
@@ -93,15 +93,15 @@
 <!--section for Company Products and contact us-->       
         <section class="row">
             <div class="container">    
-                  <div class="col-sm-4" >
-                    <div class="panel-body"><img src="img/lianahome3.jpg" class="img-responsive" style="width:100%" alt="Image"></div>                  </div>
-                  <div class="col-sm-4"> 
-                    <div class="panel-body"><img src="img/lianahome2.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+                  <div class="col-sm-4 linktoparent" >
+                    <div class="linkto" id="linkto1"><div class="imagetextdiv"><a href="#">Company</a></div></div>   
                   </div>
-                  <div class="col-sm-4"> 
-                     <div class="panel-body"><img src="img/lianahome3.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+                  <div class="col-sm-4 linktoparent"> 
+                    <div class="linkto" id="linkto2"><div class="imagetextdiv"><a href="#">Products</a></div></div>
                   </div>
-                </div>
+                  <div class="col-sm-4 "> 
+                     <div class="linkto" id="linkto3"><div class="imagetextdiv"><a href="#">Contact us</a></div></div>
+                  </div>
             </div><br><br>
         </section>
 <!--section for animated numbers-->      
@@ -196,7 +196,7 @@
                     <h3>Subscribe to our newsletter</h3>
                     <p>Follow our story and get the latest promotional news about our products and events.</p>
                     <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="email" placeholder="Your email address" aria-label="Email">
+                        <input class="form-control mr-sm-2" type="email" id="email" placeholder="Your email address" aria-label="Email">
                         <input class="btn my-2 my-sm-0 btngreen" type="button" onClick="subscribeFunction()" value="Subscribe">
                     </form>
                     <p id="thankyou"></p>
