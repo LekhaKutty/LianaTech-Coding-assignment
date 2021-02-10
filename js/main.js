@@ -1,3 +1,4 @@
+//number animation
 $('.counter-count').each(function () {
 
     $(this).prop('Counter',0).animate({
@@ -10,7 +11,7 @@ $('.counter-count').each(function () {
         }
     });
 });
-
+//thank you or error message
 function subscribeFunction() {
     let emailCheck = document.getElementById("email").value;
     if(emailCheck == "")
@@ -23,19 +24,7 @@ function subscribeFunction() {
         document.getElementById("thankyou").style.color = "green";
         document.getElementById("thankyou").innerHTML = "Thank you for your subscription."
     }
-    
 }
 
-/*const rss_url = 'http://newsapi.org/v2/top-headlines?' +
-'country=us&' +'apiKey=fc735e5e3785492881825084bef050b3';
-fetch(rss_url,{credentials:'include'})
-.then(response => response.text())
-.then(str => console.log(str));*/
-/*let url = 'http://newsapi.org/v2/top-headlines?' +
-          'country=us&' +
-          'apiKey=fc735e5e3785492881825084bef050b3';
-let req = new Request(url);
-fetch(req)
-    .then(function(response) {
-        console.log(response.json());
-    })*/
+
+
