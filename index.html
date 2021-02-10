@@ -9,79 +9,80 @@
     <meta name="author" content="Lekha Ajith Kutty">
     <title>Liana technologies</title>
 </head>
-<body>
-    <main class="container-fluid">
-        <header class="row headernav">
-            <div class="container">
-                <nav class="navbar navbar-expand-lg ">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>                       
-                        </button>
-                    </div>
-                    <div class="collapse navbar-collapse" id="navbar">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li class="nav-item">
-                                <a href="#">News</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#">Intranet</a>
-                            </li>
-                            <li class="nav-item dropdown secondary">
-                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">English <span class="caret"></span></a>
-                                <ul class="drop1 dropdown-menu ">
-                                    <li><a href="#">English</a></li>
-                                    <li><a href="#">Finnish</a></li>
-                                    <li><a href="#">Sweedish</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </nav> 
-            </div>
-        </header>
-        <!--section for logo,nav and search-->
-        <section class="row" id="logosearch">
-                <div class="container">
-                    <nav class="navbar navbar-expand-lg">
-                        <div class="container-fluid navlink">
-                            <div class="navbar-header">
-                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>                        
-                                </button>
-                                <a href="#" class="navbar-brand">
-                                    <img src="img/lianatech_logo.svg" height="28" alt="CoolBrand">
-                                </a>
-                            </div>
-                            <div class="collapse navbar-collapse" id="myNavbar">
-                                <ul class="nav navbar-nav ">
-                                    <li class="active">
-                                        <a href="#">Company</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Products</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Contact Us</a>
-                                    </li>
-                                </ul>
-                                <div class="nav navbar-nav navbar-right ">
-                                    <form class="form-inline my-2 my-lg-0">
-                                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                                        <button class="btn btn-outline-success my-2 my-sm-0 btngreen" type="submit">Search</button>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>               
-                    </nav>
+<body>     
+    <header>   
+        <nav class="navbar inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                        <span class="icon-bar" style="background-color: white;"></span>
+                        <span class="icon-bar" style="background-color: white;"></span>
+                        <span class="icon-bar" style="background-color: white;"></span>                       
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="nav-item">
+                            <a href="#">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">Intranet</a>
+                        </li>
+                        <li class="nav-item dropdown secondary">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">English <span class="caret"></span></a>
+                            <ul class="drop1 dropdown-menu ">
+                                <li><a href="#">English</a></li>
+                                <li><a href="#">Finnish</a></li>
+                                <li><a href="#">Sweedish</a></li>
+                            </ul>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </section>
+        </nav> 
+    </header> 
+  
+<!--section for logo,nav and search-->
+    <section class="row" id="logosearch">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid navlink">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                <span class="icon-bar" style="background-color: green;"></span>
+                                <span class="icon-bar" style="background-color: green;"></span>
+                                <span class="icon-bar" style="background-color: green;"></span>                        
+                            </button>
+                            <a href="#" class="navbar-brand">
+                                <img src="img/lianatech_logo.svg" height="28" alt="CoolBrand">
+                            </a>
+                        </div>
+                        <div class="collapse navbar-collapse" id="myNavbar">
+                            <ul class="nav navbar-nav secondnav">
+                                <li class="active">
+                                    <a href="#">Company</a>
+                                </li>
+                                <li>
+                                    <a href="#">Products</a>
+                                </li>
+                                <li>
+                                    <a href="#">Contact Us</a>
+                                </li>
+                            </ul>
+                            <div class="nav navbar-nav navbar-right ">
+                                <form class="form-inline my-2 my-lg-0">
+                                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                                    <button class="btn btn-outline-success my-2 my-sm-0 btngreen" type="submit">Search</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>               
+                </nav>
+            </div>
+        </div>
+    </section>
 <!--section for main image and heading -->
+    <main class="container-fluid">
         <section class="row" id="sectionwideimage">
             <div class="row container-fluid  homeimage">
                 <div class="text-center imagetextdiv">
@@ -90,19 +91,25 @@
                 </div>
             </div>
         </section><br>
+        <br>
 <!--section for Company Products and contact us-->       
         <section class="row">
-            <div class="container">    
-                  <div class="col-sm-4 linktoparent" >
-                    <div class="linkto" id="linkto1"><div class="imagetextdiv"><a href="#">Company</a></div></div>   
-                  </div>
-                  <div class="col-sm-4 linktoparent"> 
-                    <div class="linkto" id="linkto2"><div class="imagetextdiv"><a href="#">Products</a></div></div>
-                  </div>
-                  <div class="col-sm-4 "> 
-                     <div class="linkto" id="linkto3"><div class="imagetextdiv"><a href="#">Contact us</a></div></div>
-                  </div>
-            </div><br><br>
+            <div class="counter">
+                <div class="container">  
+                        <div class="col-sm-4">
+                            <div class="linkto" id="linkto1"><div class="imagetextdiv"><a href="#">Company</a></div></div>
+                        </div>
+            
+                        <div class="col-sm-4">
+                            <div class="linkto" id="linkto2"><div class="imagetextdiv"><a href="#">Products</a></div></div>
+                        </div>
+            
+                        <div class="col-sm-4">
+                            <div class="linkto" id="linkto3"><div class="imagetextdiv"><a href="#">Contact us</a></div></div>
+                        </div>
+                </div>
+            </div>
+            <br><br>
         </section>
 <!--section for animated numbers-->      
         <section class="row" id="animation">
@@ -130,8 +137,9 @@
                         </div>
                 </div>
             </div>
+            <br><br>
         </section>
-
+<!--section for latestnews--> 
         <section class="row" id="latestnews">
             <div class="latestnews">
                 <div class="container">
@@ -179,18 +187,41 @@
                 </div>
             </div>
         </section>
+<!--section for References-->
         <section class="row" id="referencebox">
             <div class="refrence">
                 <div class="container">
                     <h3>References</h3>
-                    <div class="col-sm-3">
-
+                    <div class="col-sm-12">
+                        <div class="grid-container">
+                            <div class="grid-item"><img src="img/bosch.PNG" alt="" /></div>
+                            <div class="grid-item"><img src="img/bodyshop.PNG" alt="" /></div>
+                            <div class="grid-item"><img src="img/ikea.PNG" alt="" /></div>  
+                            <div class="grid-item"><img src="img/laplandhotels.PNG" alt="" /></div>
+                            <div class="grid-item">
+                                <h6>Robert Bosch</h6>
+                                <p>Bosch is a multinational engineering and electronics company.</p>
+                            </div>
+                            <div class="grid-item">
+                                <h6>The Body Shop</h6>
+                                <p>The Body Shop has been a manufacturer of body and beauty care products for the past Forty one years and has expanded its wings into the online world. </p>
+                            </div> 
+                            <div class="grid-item">
+                                <h6>IKEA</h6>
+                                <p>IKEA is a multinational furniture shop.</p>
+                            </div>
+                            <div class="grid-item">
+                                <h6>Lapland Hotels</h6>
+                                <p>Lapland Hotels is the largest and the most diverse hotel chain in Lapland.</p>
+                            </div>   
+                          </div>
                     </div>
                 </div>
             </div>
 
         </section>
         <hr>
+<!--section for Subscribe to our newsletter-->
         <section class="row" id="newsletter">
             <div class="newsletter">
                 <div class="container">
@@ -205,6 +236,7 @@
             </div>
 
         </section>
+<!--Footer-->    
         <footer class="row" >
             <div class="col-12 col-md-3 text-md-left footerleft">
                 <h5>Liana Technologies</h5>
@@ -213,11 +245,10 @@
                 <p>Phone: +358 10 387 7053</p>
             </div>
             <div class="col-12 col-md-3">
-                <br><br><br>
-                <button class="btn my-2 my-sm-0 btngreen" type="submit" style="margin-left: auto;">Contact</button>
+                
             </div>
             <div class="col-12 col-md-3">
-                <ul class="nav navbar-nav ">
+                <ul class="footernav">
                     <li class="active">
                         <a href="#">Company</a>
                     </li>
